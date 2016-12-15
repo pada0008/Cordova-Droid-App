@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+<!--        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/index1.css">
+        <title>CricketApp</title>
+    </head>
+    <body>
+        <button class="button" id="Reload-btn">Refresh</button>
+    <!-- Schedule -->
+    <section data-role="page" id="A" class="active">
+        <h1>Game Schedule</h1>
+        <table id="gameschedule" style="width:100%"> </table>
+    </section>
+    <!-- Score -->
+    <section data-role="page" id="B" class="">
+        <h1>Game Score</h1>
+        <table id="gamescore" style="width:100%"> </table>
+    </section>
+    <nav> <a href="#A" data-role="links">Schedule</a> <a href="#B" data-role="links">Score</a> </nav>
+        <script type="text/javascript" src="js/index1.js"></script>
+        <script type="text/javascript" src="cordova.js"></script> 
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

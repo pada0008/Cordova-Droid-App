@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.first"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.first"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.first"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.first"
+        }
+    },
+    "dependent_plugins": {}
+}
